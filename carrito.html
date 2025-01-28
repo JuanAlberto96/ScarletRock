@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScarletRock</title>
+    <link rel="stylesheet" href="diseño.css"/>
+    <script src="funcionamiento.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <aside>
+            <header>
+                <h1 class="logo">ScarletRock</h1>
+            </header>
+            <nav>
+                <ul>
+                    <a class="boton-menu boton-volver" href="principal.html">
+                        <i class="bi bi-arrow-return-left"></i>Seguir comprando
+                    </a>
+                    <a class="boton-menu boton-carrito active" href="carrito.html">
+                        <i class="bi bi-cart-fill"></i>Carrito
+                    </a>
+                </ul>
+            </nav>
+            <footer>
+                <p class="texto-footer">© 2025 ScarletRock</p>
+            </footer>
+        </aside>
+        
+        <main>
+            <h2 class="titulo-principal">Carrito</h2>
+            <div id="contenedor-carrito" class="contenedor-carrito">
+                <!-- Los productos del carrito se agregarán aquí -->
+            </div>
+
+            <!-- Total del carrito -->
+            <div id="total">
+                <h3>Total: €<span id="total-importe">0</span></h3>
+            </div>
+
+            <!-- Formulario de pago -->
+            <div id="formulario-pago">
+                <h3>Detalles de Pago</h3>
+                <form id="pago-form">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion" required>
+
+                    <label for="tarjeta">Número de tarjeta:</label>
+                    <input type="text" id="tarjeta" name="tarjeta" required>
+
+                    <button type="submit">Pagar</button>
+                </form>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
