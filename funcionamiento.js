@@ -1,9 +1,7 @@
-// PRODUCTOS
 const productos = [
-    // Abrigos
     {
         id: "abrigo-01",
-        titulo: "Abrigo 01",
+        titulo: "Plumas azúl marino",
         imagen: "./img/abrigos/01.jpg",
         categoria: {
             nombre: "Abrigos",
@@ -13,7 +11,7 @@ const productos = [
     },
     {
         id: "abrigo-02",
-        titulo: "Abrigo 02",
+        titulo: "Chaqueta informal",
         imagen: "./img/abrigos/02.jpg",
         categoria: {
             nombre: "Abrigos",
@@ -23,7 +21,7 @@ const productos = [
     },
     {
         id: "abrigo-03",
-        titulo: "Abrigo 03",
+        titulo: "Plumas acolchado gris",
         imagen: "./img/abrigos/03.jpg",
         categoria: {
             nombre: "Abrigos",
@@ -33,7 +31,7 @@ const productos = [
     },
     {
         id: "abrigo-04",
-        titulo: "Abrigo 04",
+        titulo: "Plumas acolchado negro",
         imagen: "./img/abrigos/04.jpg",
         categoria: {
             nombre: "Abrigos",
@@ -43,7 +41,7 @@ const productos = [
     },
     {
         id: "abrigo-05",
-        titulo: "Abrigo 05",
+        titulo: "Chaqueta deportiva gris",
         imagen: "./img/abrigos/05.jpg",
         categoria: {
             nombre: "Abrigos",
@@ -51,10 +49,9 @@ const productos = [
         },
         precio: 52.99
     },
-    // Camisetas
     {
         id: "camiseta-01",
-        titulo: "Camiseta 01",
+        titulo: "Camiseta azúl marino",
         imagen: "./img/camisetas/01.jpg",
         categoria: {
             nombre: "Camisetas",
@@ -64,7 +61,7 @@ const productos = [
     },
     {
         id: "camiseta-02",
-        titulo: "Camiseta 02",
+        titulo: "Camiseta blanca y rosa",
         imagen: "./img/camisetas/02.jpg",
         categoria: {
             nombre: "Camisetas",
@@ -74,7 +71,7 @@ const productos = [
     },
     {
         id: "camiseta-03",
-        titulo: "Camiseta 03",
+        titulo: "Camiseta blanca palmera",
         imagen: "./img/camisetas/03.jpg",
         categoria: {
             nombre: "Camisetas",
@@ -84,7 +81,7 @@ const productos = [
     },
     {
         id: "camiseta-04",
-        titulo: "Camiseta 04",
+        titulo: "Camiseta granate",
         imagen: "./img/camisetas/04.jpg",
         categoria: {
             nombre: "Camisetas",
@@ -94,7 +91,7 @@ const productos = [
     },
     {
         id: "camiseta-05",
-        titulo: "Camiseta 05",
+        titulo: "Camiseta gris",
         imagen: "./img/camisetas/05.jpg",
         categoria: {
             nombre: "Camisetas",
@@ -104,7 +101,7 @@ const productos = [
     },
     {
         id: "camiseta-06",
-        titulo: "Camiseta 06",
+        titulo: "Camiseta roja",
         imagen: "./img/camisetas/06.jpg",
         categoria: {
             nombre: "Camisetas",
@@ -114,7 +111,7 @@ const productos = [
     },
     {
         id: "camiseta-07",
-        titulo: "Camiseta 07",
+        titulo: "Camiseta verde",
         imagen: "./img/camisetas/07.jpg",
         categoria: {
             nombre: "Camisetas",
@@ -124,7 +121,7 @@ const productos = [
     },
     {
         id: "camiseta-08",
-        titulo: "Camiseta 08",
+        titulo: "Camiseta azúl",
         imagen: "./img/camisetas/08.jpg",
         categoria: {
             nombre: "Camisetas",
@@ -132,10 +129,9 @@ const productos = [
         },
         precio: 12.99
     },
-    // Pantalones
     {
         id: "pantalon-01",
-        titulo: "Pantalón 01",
+        titulo: "Pantalón veis",
         imagen: "./img/pantalones/01.jpg",
         categoria: {
             nombre: "Pantalones",
@@ -145,7 +141,7 @@ const productos = [
     },
     {
         id: "pantalon-02",
-        titulo: "Pantalón 02",
+        titulo: "Pantalón blanco",
         imagen: "./img/pantalones/02.jpg",
         categoria: {
             nombre: "Pantalones",
@@ -155,7 +151,7 @@ const productos = [
     },
     {
         id: "pantalon-03",
-        titulo: "Pantalón 03",
+        titulo: "Pantalón negro",
         imagen: "./img/pantalones/03.jpg",
         categoria: {
             nombre: "Pantalones",
@@ -165,7 +161,7 @@ const productos = [
     },
     {
         id: "pantalon-04",
-        titulo: "Pantalón 04",
+        titulo: "Pantalón azúl marino",
         imagen: "./img/pantalones/04.jpg",
         categoria: {
             nombre: "Pantalones",
@@ -175,7 +171,7 @@ const productos = [
     },
     {
         id: "pantalon-05",
-        titulo: "Pantalón 05",
+        titulo: "Pantalón gris",
         imagen: "./img/pantalones/05.jpg",
         categoria: {
             nombre: "Pantalones",
@@ -190,10 +186,10 @@ const botonesCategorias = document.querySelectorAll(".boton-categoria");
 const tituloPrincipal = document.querySelector("#titulo-principal");
 function inicializarProductos(){
     productos = [
-        // Abrigos
+        
         {
             id: "abrigo-01",
-            titulo: "Abrigo 01",
+            titulo: "Plumas azúl marino",
             imagen: "./img/abrigos/01.jpg",
             categoria: {
                 nombre: "Abrigos",
@@ -203,7 +199,7 @@ function inicializarProductos(){
         },
         {
             id: "abrigo-02",
-            titulo: "Abrigo 02",
+            titulo: "Chaqueta informal",
             imagen: "./img/abrigos/02.jpg",
             categoria: {
                 nombre: "Abrigos",
@@ -213,7 +209,7 @@ function inicializarProductos(){
         },
         {
             id: "abrigo-03",
-            titulo: "Abrigo 03",
+            titulo: "Plumas acolchado gris",
             imagen: "./img/abrigos/03.jpg",
             categoria: {
                 nombre: "Abrigos",
@@ -223,7 +219,7 @@ function inicializarProductos(){
         },
         {
             id: "abrigo-04",
-            titulo: "Abrigo 04",
+            titulo: "Plumas acolchado negro",
             imagen: "./img/abrigos/04.jpg",
             categoria: {
                 nombre: "Abrigos",
@@ -233,7 +229,7 @@ function inicializarProductos(){
         },
         {
             id: "abrigo-05",
-            titulo: "Abrigo 05",
+            titulo: "Chaqueta deportiva gris",
             imagen: "./img/abrigos/05.jpg",
             categoria: {
                 nombre: "Abrigos",
@@ -241,10 +237,9 @@ function inicializarProductos(){
             },
             precio: 52.99
         },
-        // Camisetas
         {
             id: "camiseta-01",
-            titulo: "Camiseta 01",
+            titulo: "Camiseta azúl marino",
             imagen: "./img/camisetas/01.jpg",
             categoria: {
                 nombre: "Camisetas",
@@ -254,7 +249,7 @@ function inicializarProductos(){
         },
         {
             id: "camiseta-02",
-            titulo: "Camiseta 02",
+            titulo: "Camiseta blanca y rosa",
             imagen: "./img/camisetas/02.jpg",
             categoria: {
                 nombre: "Camisetas",
@@ -264,7 +259,7 @@ function inicializarProductos(){
         },
         {
             id: "camiseta-03",
-            titulo: "Camiseta 03",
+            titulo: "Camiseta blanca palmera",
             imagen: "./img/camisetas/03.jpg",
             categoria: {
                 nombre: "Camisetas",
@@ -274,7 +269,7 @@ function inicializarProductos(){
         },
         {
             id: "camiseta-04",
-            titulo: "Camiseta 04",
+            titulo: "Camiseta granate",
             imagen: "./img/camisetas/04.jpg",
             categoria: {
                 nombre: "Camisetas",
@@ -284,7 +279,7 @@ function inicializarProductos(){
         },
         {
             id: "camiseta-05",
-            titulo: "Camiseta 05",
+            titulo: "Camiseta gris",
             imagen: "./img/camisetas/05.jpg",
             categoria: {
                 nombre: "Camisetas",
@@ -294,7 +289,7 @@ function inicializarProductos(){
         },
         {
             id: "camiseta-06",
-            titulo: "Camiseta 06",
+            titulo: "Camiseta roja",
             imagen: "./img/camisetas/06.jpg",
             categoria: {
                 nombre: "Camisetas",
@@ -304,7 +299,7 @@ function inicializarProductos(){
         },
         {
             id: "camiseta-07",
-            titulo: "Camiseta 07",
+            titulo: "Camiseta verde",
             imagen: "./img/camisetas/07.jpg",
             categoria: {
                 nombre: "Camisetas",
@@ -314,7 +309,7 @@ function inicializarProductos(){
         },
         {
             id: "camiseta-08",
-            titulo: "Camiseta 08",
+            titulo: "Camiseta azúl",
             imagen: "./img/camisetas/08.jpg",
             categoria: {
                 nombre: "Camisetas",
@@ -322,10 +317,9 @@ function inicializarProductos(){
             },
             precio: 12.99
         },
-        // Pantalones
         {
             id: "pantalon-01",
-            titulo: "Pantalón 01",
+            titulo: "Pantalón veis",
             imagen: "./img/pantalones/01.jpg",
             categoria: {
                 nombre: "Pantalones",
@@ -335,7 +329,7 @@ function inicializarProductos(){
         },
         {
             id: "pantalon-02",
-            titulo: "Pantalón 02",
+            titulo: "Pantalón blanco",
             imagen: "./img/pantalones/02.jpg",
             categoria: {
                 nombre: "Pantalones",
@@ -345,7 +339,7 @@ function inicializarProductos(){
         },
         {
             id: "pantalon-03",
-            titulo: "Pantalón 03",
+            titulo: "Pantalón negro",
             imagen: "./img/pantalones/03.jpg",
             categoria: {
                 nombre: "Pantalones",
@@ -355,7 +349,7 @@ function inicializarProductos(){
         },
         {
             id: "pantalon-04",
-            titulo: "Pantalón 04",
+            titulo: "Pantalón azúl marino",
             imagen: "./img/pantalones/04.jpg",
             categoria: {
                 nombre: "Pantalones",
@@ -365,7 +359,7 @@ function inicializarProductos(){
         },
         {
             id: "pantalon-05",
-            titulo: "Pantalón 05",
+            titulo: "Pantalón gris",
             imagen: "./img/pantalones/05.jpg",
             categoria: {
                 nombre: "Pantalones",
@@ -388,11 +382,8 @@ function filtrarProductos(categoria){
 
 }
 
-
-
 console.log("Producto actual:");
 
-// Función para cargar los productos en el carrito
 function cargarProductosCarrito() {
     console.log("Producto actual:");
     const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
@@ -400,17 +391,16 @@ function cargarProductosCarrito() {
     const totalElement = document.querySelector("#total-importe");
     let total = 0;
     
-    // Limpiar el contenedor de carrito antes de agregar los productos
     contenedorCarrito.innerHTML = "";
 
     if (carrito.length === 0) {
         contenedorCarrito.innerHTML = "<p>Tu carrito está vacío.</p>";
     } else {
         carrito.forEach((producto, index) => {
-            // Buscar el producto en la lista de productos
+        
             const productoInfo = productos.find(p => p.id === producto.id);
             
-            // Crear el HTML para cada producto en el carrito
+            
             const div = document.createElement("div");
             div.classList.add("producto-carrito");
             div.innerHTML = `
@@ -428,11 +418,8 @@ function cargarProductosCarrito() {
              
         });
 
-        
-
         totalElement.textContent = total.toFixed(2);
 
-        // Agregar evento a los botones de eliminar
         const botonesEliminar = document.querySelectorAll(".eliminar-producto");
         botonesEliminar.forEach(boton => {
             boton.addEventListener("click", function() {
@@ -443,9 +430,7 @@ function cargarProductosCarrito() {
     }
 }
 
-// Verifica si estamos en la página de carrito
 if (window.location.pathname.includes("carrito.html")) {
-    // Si estamos en la página de carrito, agregar el evento al formulario de pago
     document.querySelector("#pago-form").addEventListener("submit", function(event) {
         event.preventDefault();
 
@@ -459,12 +444,10 @@ if (window.location.pathname.includes("carrito.html")) {
             return;
         }
 
-        // Aquí puedes realizar la lógica de pago, por ejemplo, enviar los datos a un servidor
         alert("Pago realizado con éxito. ¡Gracias por tu compra!");
         generarFacturaPDF(nombre, direccion);
-        // Limpiar el carrito después del pago
         localStorage.removeItem("carrito");
-        cargarProductosCarrito(); // Actualizar el carrito para que se vea vacío
+        cargarProductosCarrito();
         totalElement.textContent = "0";
         
     });
@@ -474,21 +457,17 @@ function generarFacturaPDF(nombre, direccion) {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
 
-    // Título de la factura
     doc.setFontSize(18);
     doc.text("Factura de Compra", 20, 20);
 
-    // Información del cliente
     doc.setFontSize(12);
     doc.text(`Nombre: ${nombre}`, 20, 40);
     doc.text(`Dirección: ${direccion}`, 20, 50);
 
-    // Detalles de los productos del carrito
     const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
     let total = 0;
     let yPosition = 60;
 
-    // Encabezado de los productos
     doc.text("Productos:", 20, yPosition);
     yPosition += 10;
 
@@ -501,33 +480,25 @@ function generarFacturaPDF(nombre, direccion) {
         yPosition += 10;
     });
 
-    // Total
     doc.text(`Total: €${total}`, 20, yPosition + 10);
 
-    // Descargar el PDF
     doc.save(`factura_${nombre.replace(" ", "_")}.pdf`);
 }
 
-// Función para eliminar un producto del carrito
 function eliminarProductoCarrito(index) {
     const carrito = JSON.parse(localStorage.getItem("carrito")) || [];
     
-    // Verificar si la cantidad de ese producto es mayor a 1
     if (carrito[index].cantidad > 1) {
-        carrito[index].cantidad -= 1;  // Reducir la cantidad en 1
+        carrito[index].cantidad -= 1;
     } else {
-        // Si la cantidad es 1, eliminar el producto completamente
         carrito.splice(index, 1);
     }
     
-    // Guardar el carrito actualizado en localStorage
     localStorage.setItem("carrito", JSON.stringify(carrito));
     
-    // Recargar el carrito para reflejar los cambios
     cargarProductosCarrito();
 }
 
-// Función para actualizar el numerito del carrito
 function actualizarNumeritoCarrito() {
     const carrito = localStorage.getItem("carrito");
     const numerito = document.querySelector("#numerito");
@@ -535,19 +506,15 @@ function actualizarNumeritoCarrito() {
     if (!carrito || carrito === "") {
         numerito.innerHTML = 0;
     } else {
-        numerito.innerHTML = carrito.split(",").length - 1; // Restar 1 porque el último valor es una coma extra
+        numerito.innerHTML = carrito.split(",").length - 1;
     }
 }
 
-// Llamar a la función para cargar los productos del carrito cuando se cargue la página
 document.addEventListener("DOMContentLoaded", () => {
     cargarProductosCarrito();
     actualizarNumeritoCarrito();
 });
 
-
-// Cargar todos los productos al inicio
-// Función para cargar los productos
 function cargarProductos(seleccion) {
     console.log("Cargar productos", seleccion);
     if (seleccion === "todos")
@@ -572,91 +539,68 @@ function cargarProductos(seleccion) {
         `;
         contenedorProductos.append(div);
 
-        // Añadir evento a cada botón "Agregar"
         const botonAgregar = div.querySelector(".producto-agregar");
         botonAgregar.addEventListener("click", () => agregarAlCarrito(producto.id));
     });
 }
 
-// Función para agregar un producto al carrito
 function agregarAlCarrito(id) {
-    // Obtener el carrito de localStorage
+
     let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
-    // Verificar si el producto ya está en el carrito
     const productoExistente = carrito.find(producto => producto.id === id);
 
     if (productoExistente) {
-        // Si el producto ya está en el carrito, aumentar la cantidad
         productoExistente.cantidad += 1;
     } else {
-        // Si no está en el carrito, agregarlo con cantidad 1
         carrito.push({ id: id, cantidad: 1 });
     }
 
-    // Guardar el carrito actualizado en localStorage
     localStorage.setItem("carrito", JSON.stringify(carrito));
 
-    // Actualizar el número del carrito en la interfaz
     document.querySelector("#numerito").innerHTML = carrito.length;
 }
 
-
-// Función para actualizar el numerito en el carrito
 function actualizarNumeritoCarrito() {
     const carrito = localStorage.getItem("carrito");
     const numerito = document.querySelector("#numerito");
     if (carrito) {
-        numerito.innerHTML = carrito.split(",").length - 1; // Restar 1 porque el último valor es una coma extra
+        numerito.innerHTML = carrito.split(",").length - 1;
     } else {
         numerito.innerHTML = 0;
     }
 }
 
-
-// Función para limpiar el carrito
 function limpiarCarrito() {
-    // Eliminar el carrito de localStorage
     localStorage.removeItem("carrito");
-    
-    // Actualizar el numerito a 0
     actualizarNumeritoCarrito();
 }
 
-// Función para actualizar el numerito del carrito
 function actualizarNumeritoCarrito() {
     const carrito = localStorage.getItem("carrito");
     const numerito = document.querySelector("#numerito");
     
-    // Si el carrito está vacío o no existe, mostrar 0
     if (!carrito || carrito === "") {
         numerito.innerHTML = 0;
     } else {
-        numerito.innerHTML = carrito.split(",").length - 1; // Restar 1 porque el último valor es una coma extra
+        numerito.innerHTML = carrito.split(",").length - 1;
     }
 }
 
-// Agregar el evento al botón de limpiar carrito
 document.getElementById('limpiar-carrito').addEventListener('click', function() {
-    // Limpiar el carrito en localStorage
     localStorage.removeItem('carrito');
     
-    // Actualizar el numerito del carrito a 0
     document.getElementById('numerito').textContent = '0';
     
-    // Recargar la página para reflejar el carrito vacío
     window.location.reload();
 });
 
-
-// Cargar productos al inicio
 cargarProductos("todos");
 document.getElementById('todos').addEventListener('click', function (){cargarProductos("todos");});
 document.getElementById('abrigos').addEventListener('click', function(){cargarProductos("abrigos");});
 document.getElementById('camisetas').addEventListener('click', function(){cargarProductos("camisetas");});
 document.getElementById('pantalones').addEventListener('click', function(){cargarProductos("pantalones");}); 
 
-// Actualizar el numerito al cargar la página
 actualizarNumeritoCarrito();
 
 
