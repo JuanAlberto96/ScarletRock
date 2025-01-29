@@ -499,17 +499,6 @@ function eliminarProductoCarrito(index) {
     cargarProductosCarrito();
 }
 
-function actualizarNumeritoCarrito() {
-    const carrito = localStorage.getItem("carrito");
-    const numerito = document.querySelector("#numerito");
-    
-    if (!carrito || carrito === "") {
-        numerito.innerHTML = 0;
-    } else {
-        numerito.innerHTML = carrito.split(",").length - 1;
-    }
-}
-
 document.addEventListener("DOMContentLoaded", () => {
     cargarProductosCarrito();
     actualizarNumeritoCarrito();
